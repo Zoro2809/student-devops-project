@@ -8,3 +8,31 @@ __pycache__/
 *.tfstate.*
 .env
 .DS_Store
+
+# Terraform working directory
+**/.terraform/*
+
+# Terraform state and plans
+*.tfstate
+*.tfstate.*
+*.plan
+crash.log
+crash.*.log
+
+# Local variable values (may contain personal IPs)
+*.tfvars
+*.tfvars.json
+
+# AWS credentials and secrets
+.aws/
+.env
+.env.*
+
+# Python virtual environments
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+
+# IDE
+.vscode/
